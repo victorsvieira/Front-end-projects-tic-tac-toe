@@ -1,18 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './App.css'
-import Square from './components/Square'
-import Game from './components/Game'
+import "./App.css";
+import Square from "./components/Square";
+import Game from "./components/Game";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-    <Game/>
-    
+      <Game />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
