@@ -1,0 +1,29 @@
+.square {
+    background-color: lightseagreen;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 15px;
+    gap: 15px;
+    margin: 4px;
+    border: none;
+    
+}
+
+.square:hover {
+    box-shadow:0px 0px 10px yellow;
+    cursor: pointer;
+}
+
+.square.x {
+    color: white;
+    background-color: red;
+    font-size: 60px;
+    text-align: center;
+}
+
+.square.o {
+    color: white;
+    background-color: darkblue;
+    font-size: 60px;
+    text-align: center;
+}
